@@ -1,0 +1,8 @@
+new-api/
+bin/
+obj/
+.vs/
+*.user
+*.suo
+CctqMonitor/bin/
+CctqMonitor/obj/

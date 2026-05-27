@@ -1,0 +1,13 @@
+<Application x:Class="CctqMonitor.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             ShutdownMode="OnExplicitShutdown">
+  <Application.Resources>
+    <SolidColorBrush x:Key="CanvasBrush" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="ParchmentBrush" Color="#F5F5F7"/>
+    <SolidColorBrush x:Key="InkBrush" Color="#263241"/>
+    <SolidColorBrush x:Key="MutedInkBrush" Color="#6E7782"/>
+    <SolidColorBrush x:Key="HairlineBrush" Color="#E0E0E0"/>
+    <SolidColorBrush x:Key="ActionBlueBrush" Color="#0066CC"/>
+  </Application.Resources>
+</Application>

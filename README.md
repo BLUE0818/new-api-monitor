@@ -1,6 +1,6 @@
 # new-api-monitor
 
-一个轻量级 Windows 悬浮窗，用于通过 new-api / CCTQ 的系统访问令牌监控账户余额、今日消耗和站点延迟。
+一个轻量级 Windows 悬浮窗，用于通过 new-api 的系统访问令牌监控账户余额、今日消耗和站点延迟。
 
 ![预览](assets/preview.png)
 
@@ -21,19 +21,7 @@
 - 令牌使用 Windows DPAPI 加密保存在当前 Windows 用户下。
 - 支持悬浮窗拖动、锁定位置、置顶、系统托盘菜单。
 
-## 分发
-
-直接分发 Release 构建生成的单个文件即可：
-
-```text
-CctqMonitor/bin/Release/CCTQ Monitor.exe
-```
-
-用户运行时不会在 exe 同级目录生成配置文件。配置保存到：
-
-```text
-%APPDATA%\CCTQ Monitor\config.json
-```
+## 实现
 
 当前实现基于 .NET Framework 4.7.1。Windows 10/11 通常已有兼容运行时，不需要安装 Node、.NET SDK 或其他第三方依赖。
 
@@ -54,9 +42,9 @@ CctqMonitor/bin/Release/CCTQ Monitor.exe
 - `System.Net.Http.HttpClient`
 - Windows DPAPI
 
-## 说明
+## 致谢
 
-`new-api/` 是开发时参考的上游项目仓库，已被 `.gitignore` 排除，不属于本项目源码。
+`new-api/` 是开发时参考的上游项目仓库。
 
 ## License
 
